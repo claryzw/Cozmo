@@ -1,7 +1,7 @@
 # Cozmo
 
 <p align="center">
- <img src="https://github.com/claryzw/Chengeto/blob/main/Logo/Chengeto%20Github.png?raw=true" alt="Chengeto Logo")
+ <img src="https://github.com/claryzw/Cozmo/blob/main/Logo/Cozmo%20Github%20-1.png?raw=true" alt="Cozmo Logo")
 </p>
 
 Cozmo is a project that aims to use Python and Golang to create projects such as Virtual Assistants and Chatbots for personal skill development and potentially practical uses.
