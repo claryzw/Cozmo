@@ -1,4 +1,4 @@
-# Cozmo
+# Cozmo - Chatbots and Virtual Assistants
 
 <p align="center">
  <img src="https://github.com/claryzw/Cozmo/blob/main/Logo/Cozmo%20Github%20-1.png?raw=true" alt="Cozmo Logo")
@@ -8,8 +8,8 @@ Cozmo is a project that aims to use Python and Golang to create projects such as
 
 Built With:
 
-    Python - The programming language used
-    Golang - The programming language used
+* Python - The programming language used
+* Golang - The programming language used
     
 ## Author
 
