@@ -1,7 +1,7 @@
 # Chatbot with Python by Clarence Itai Msindo
 import os
 import telebot
-from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Bot
+from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 BOT_TOKEN = os.environ.get('5940769441:AAEgwz-cZ48FNq_LXU8O0kTXx7Sp5vyS0p8')
@@ -9,7 +9,7 @@ BOT_TOKEN = os.environ.get('5940769441:AAEgwz-cZ48FNq_LXU8O0kTXx7Sp5vyS0p8')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hi! I'm Cozmo, your personal chatbot. How can I help you today?")
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Hey! Whats Up? Say 'Hi' or 'Hello'")
 
 def handle_message(update, context):
     text = str(update.message.text).lower()
