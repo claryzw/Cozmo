@@ -16,7 +16,7 @@ func main() {
     bot := NewChatbot()
 
     // Display a welcome message to client.
-    fmt.Println("Hey There! I'm Cozmo! How Can I Help You?")
+    fmt.Println("Hey! Whats Up? Say 'Hi' or 'Hello'")
 
     // Read user input from the command line
     reader := bufio.NewReader(os.Stdin)
@@ -56,11 +56,16 @@ func (bot *Chatbot) ProcessInput(input string) string {
    input = strings.TrimSpace(input)
 
    // Generate a response based on the input
-   if strings.Contains(input, "hello") || strings.Contains(input, "hi") {
-	   return "Hello there!"
-   } else if strings.Contains(input, "how are you") {
-	   return "I'm doing well, thank you. How about you?"
-   } else {
-	   return "I'm sorry, I didn't understand what you said."
-   }
+   if strings.Contains(input, "Hello") || strings.Contains(input, "Hi") {
+	   return "Hello there! How are you?"
+   } else if strings.Contains(input, "I am well") || strings.Contains(input, "I am good") || strings.Contains(input, "Good thanks") || strings.Contains(input, "I am good thanks and you?") || strings.Contains(input, "I am well thanks and you?") || strings.Contains(input, "I am ok") || strings.Contains(input, "Ok thanks") || strings.Contains(input, "Ok") || strings.Contains(input, "Good"){
+	   return "Good to know! I'm doing well too. What is your name? Start by saying 'My name is'"
+   }   else if strings.Contains(input, "My name is") {
+    name := strings.TrimPrefix(input, "My name is ")
+    return fmt.Sprintf("Nice to meet you, %s! In case you did not know, I was created by Clarence Itai Msindo using GoLang. Now to end this chat, please say 'bye' to do so. Again it was nice to meet you!", name )
+    }   else if strings.Contains(input, "bye") {
+        return "Peace out! Press [x] to exit."
+    }  else {
+	   return "Nah, I don't understand what you said"
+    }
 }
