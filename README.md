@@ -91,4 +91,3 @@ This project does not use any external web frameworks.
 * Python Documentation
 * Pragnakalp Techlabs - Create Telegram Bot Using Python Tutorial with Examples
 * ChatGPT 3
-* Inspiration
