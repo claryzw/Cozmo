@@ -5,7 +5,7 @@ from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from bot import main
 
-BOT_TOKEN = os.environ.get('5940769441:AAEgwz-cZ48FNq_LXU8O0kTXx7Sp5vyS0p8')
+BOT_TOKEN = os.environ.get('your-bot-token-here')
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -37,7 +37,7 @@ def chatbot_functions(update, context):
 
 
 # The updater and dispatcher
-updater = Updater(token='5940769441:AAEgwz-cZ48FNq_LXU8O0kTXx7Sp5vyS0p8', use_context=True)
+updater = Updater(token='your-bot-token-here', use_context=True)
 dispatcher = updater.dispatcher
 
 # Add handlers
