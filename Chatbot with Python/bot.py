@@ -4,7 +4,7 @@ import telebot
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-BOT_TOKEN = os.environ.get('5940769441:AAEgwz-cZ48FNq_LXU8O0kTXx7Sp5vyS0p8')
+BOT_TOKEN = os.environ.get('your-bot-token-here')
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -27,7 +27,7 @@ def handle_message(update, context):
 def main():
    def main():
     # create an instance of the Updater class and pass in your bot token
-    updater = Updater('5940769441:AAEgwz-cZ48FNq_LXU8O0kTXx7Sp5vyS0p8', use_context=True)
+    updater = Updater('your-bot-token-here', use_context=True)
 
     # get the dispatcher to register handlers
     dispatcher = updater.dispatcher
