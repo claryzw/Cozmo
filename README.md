@@ -13,7 +13,7 @@ Built With:
 
 # Cozmo Chatbot with Go (CLI)
 
-The chatbot is built using Go programming language. 
+The chatbot is built using the Go programming language. 
 
 ## File Directory
 
@@ -39,11 +39,56 @@ To run the chatbot, follow these steps:
 6. The chatbot will generate a response and display it to you.
 7. Continue the conversation until you are ready to exit.
 8. To exit the chatbot, type "bye" and press Enter.
+
+# Cozmo Chatbot with Python (Telegram)
+
+The chatbot is built using the Python programming language. You can access this chatbot via Telegram to try it out here: http://t.me/cozmo_python_bot
+
+## File Directory
+
+This project includes the following files:
+
+* bot.py - Contains the implementation of the chatbot logic.
+* cozmo.env - Activates the virtual environment and set the required environment variables.
+* main.py - Contains the main function that starts the chatbot.
+* requirements.txt - A text file used in Python development to specify the packages (also known as dependencies) that a project requires.
+
+## Getting Started
+Here are the steps to run the Python chatbot:
+
+1. Install Python 3 from the official website: https://www.python.org/downloads/
+2. Download the project files from this repository.
+3. Open a terminal and navigate to the project directory.
+4. Run the following command to install the required packages:
+
+        pip install -r requirements.txt
+
+5. Set your Telegram bot token as an environment variable with the following command:
+
+        export BOT_TOKEN="your-bot-token-here"
+
+6. Run the following command to start the Python chatbot:
+
+        python chatbot.py
+
+    The chatbot is now running and ready to receive messages on Telegram.
     
-## Author
+# Cozmo Virtual Assistant with Go
 
-Clarence Itai Msindo - Initial work
+In progress...
 
-## Acknowledgments
+# Cozmo Virtual Assistant with Python
 
-Inspiration
+In progress...
+
+# Frameworks
+
+This project does not use any external web frameworks.
+
+# Acknowledgments
+
+* Go Documentation
+* Python Documentation
+* Pragnakalp Techlabs - Create Telegram Bot Using Python Tutorial with Examples
+* ChatGPT 3
+* Inspiration
