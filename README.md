@@ -69,7 +69,7 @@ Here are the steps to run the Python chatbot:
 
 6. Run the following command to start the Python chatbot:
 
-        python chatbot.py
+        python main.py
 
     The chatbot is now running and ready to receive messages on Telegram.
     
