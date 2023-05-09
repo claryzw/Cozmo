@@ -79,7 +79,37 @@ In progress...
 
 # Cozmo Virtual Assistant with Python
 
-In progress...
+The Cozmo Virtual Assistant is a Python-based program that utilizes speech recognition and text-to-speech capabilities to create a virtual assistant that can respond to voice commands. The assistant can perform tasks such as opening websites, providing the current day and time, searching Wikipedia, and more.
+ 
+## File Directory
+This project includes the following file:
+ 
+* cozmo_assistant.py - Contains the main function that starts the chatbot.
+ 
+## Getting Started
+
+Follow these steps to run the Cozmo Virtual Assistant:
+
+1. Copy the code provided into a Python file with a .py extension, in this case cozmo_assistant.py.
+2. Save the Python file in a directory of your choice.
+3. Open a terminal or command prompt and navigate to the directory where you saved the Python file.
+4. Execute the Python script by running the following command:
+
+        python cozmo_virtual_assistant.py
+
+5. Once the program starts, the virtual assistant will greet you and wait for your commands. You can speak your commands, and the assistant will respond accordingly.
+6. Some example commands you can try with the assistant:
+ 
+   * "Open Google" to open the Google website.
+   * "Which day is it?" to get the current day of the week.
+   * "Tell me the time" to get the current time.
+   * "Bye" to exit the assistant.
+   * "Search Python on Wikipedia" to search for information about Python on Wikipedia.
+   * "Tell me your name" to learn the assistant's name.
+ 
+To stop the assistant, you can either say "Bye" or press Ctrl+C in the terminal or command prompt.
+
+ Note: The assistant uses speech recognition, so make sure you have a working microphone connected to your system for voice input.
 
 # Frameworks
 
