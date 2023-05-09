@@ -84,7 +84,7 @@ The Cozmo Virtual Assistant is a Python-based program that utilizes speech recog
 ## File Directory
 This project includes the following file:
  
-* cozmo_assistant.py - Contains the main function that starts the chatbot.
+* cozmo_assistant.py - Contains the main function that starts the virtual assistant.
  
 ## Getting Started
 
