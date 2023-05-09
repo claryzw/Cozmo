@@ -90,4 +90,5 @@ This project does not use any external web frameworks.
 * Go Documentation
 * Python Documentation
 * Pragnakalp Techlabs - Create Telegram Bot Using Python Tutorial with Examples
+* abhisheksrivastaviot18 - Build a Virtual Assistant Using Python
 * ChatGPT 3
