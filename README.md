@@ -95,7 +95,7 @@ Follow these steps to run the Cozmo Virtual Assistant:
 3. Open a terminal or command prompt and navigate to the directory where you saved the Python file.
 4. Execute the Python script by running the following command:
 
-        python cozmo_virtual_assistant.py
+        python cozmo_assistant.py
 
 5. Once the program starts, the virtual assistant will greet you and wait for your commands. You can speak your commands, and the assistant will respond accordingly.
 6. Some example commands you can try with the assistant:
