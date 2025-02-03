@@ -75,7 +75,77 @@ Here are the steps to run the Python chatbot:
     
 # Cozmo Virtual Assistant with Go
 
-In progress...
+The Cozmo Virtual Assistant is a Go-based program that utilizes speech recognition and text-to-speech capabilities to create a virtual assistant that can respond to voice commands. The assistant can perform tasks such as opening websites, providing the current day and time, searching Wikipedia, and more.
+
+## File Directory
+
+This project includes the following files and directories:
+
+* `main.go` - Contains the main implementation of the virtual assistant
+* `go.mod` - Go module file defining dependencies
+* `go.sum` - Checksums for dependency verification
+* `audio/` - Directory for temporary speech files (Coming Soon)
+    * `README.md` - Instructions for audio directory
+    * `.gitkeep` - Ensures directory is tracked in git
+
+## Getting Started
+
+Follow these steps to run the Cozmo Virtual Assistant:
+
+1. Ensure you have Go installed on your system (version 1.20 or higher recommended)
+
+2. Install required system dependencies:
+
+   **Windows:**
+   - Install Microsoft Visual C++ Build Tools
+   - Install Python 3.x
+   - Run: `pip install pyaudio`
+
+3. Clone or download the project files
+
+4. Navigate to the project directory and install Go dependencies:
+   ```
+   go mod tidy
+   ```
+
+5. Build and run the assistant:
+   ```
+   go build
+   ./cozmo-voice  # or cozmo-voice.exe on Windows
+   ```
+
+6. Once the program starts, the virtual assistant will greet you and wait for your commands. You can speak your commands, and the assistant will respond accordingly.
+
+## Available Commands
+
+You can try the following voice commands with the assistant:
+
+* "Open Google" to open the Google website
+* "Which day is it?" to get the current day of the week
+* "Tell me the time" to get the current time
+* "Bye" to exit the assistant
+* "Search [topic] on Wikipedia" to search for information on Wikipedia
+* "Tell me your name" to learn the assistant's name
+
+To stop the assistant, you can either say "Bye" or press Ctrl+C in the terminal.
+
+## Notes and Requirements
+
+- A working microphone is required for voice input
+- The `audio` directory must have write permissions for the assistant to function
+- Ensure your system meets the minimum requirements for speech recognition:
+  - At least 4GB RAM
+  - Microphone access permissions
+  - Internet connection for Wikipedia searches
+
+## Troubleshooting
+
+If you encounter issues:
+
+1. Verify microphone permissions are enabled for terminal/command prompt
+2. Check that the `audio` directory has proper write permissions
+3. Ensure all system dependencies are properly installed
+4. Verify Go version compatibility (1.20 or higher)
 
 # Cozmo Virtual Assistant with Python
 
