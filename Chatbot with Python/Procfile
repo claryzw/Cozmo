@@ -1,1 +1,1 @@
-worker: cd "Chatbot with Python" && python bot.py
+worker: cd "Cozmo/Chatbot with Python" && python bot.py
